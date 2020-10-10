@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    color: #E80459;
+    font-size: 80px;
+}
+
+.container .box:nth-child(2n+1) {
+    background-color: #20232A;
+}
+
+.section {
+    background-color: #2B2F38;
+}
+
+.container-video {
+    background-color: #000000;
+}
+
+#video {
+    width: 100%;
+    height: 90vh;
+}
