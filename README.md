@@ -10,3 +10,7 @@ To see this example you must clone the project with the following command:
 ```bash
 $ git clone https://github.com/jsalazarv/intersection-observer.git
 ```
+
+### Note
+
+In this example the browser that the user is using is validated, if the browser is Chrome the video is played without audio, this is done because the privacy policies of Google Chrome do not allow playing audio if the user has not interacted with the website previously.
